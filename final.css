@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    src : url("./fonts/EF_MACHO\(맥용_OTF\).otf"); 
+    font-family: "EF_MACHO" }
+
+
+h1 {
+    font-weight: 300;
+    font-size: 64px;
+    color: #191F28;
+    font-family: "EF_MACHO"
+
+}
+
+h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #191F28;
+    letter-spacing: -0.07em;
+}
+
+h3 {
+    font-style: bold;
+    font-weight: 700;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: #191F28;
+    letter-spacing: -0.07em;
+}
+
+h5 {
+    font-weight: 700;
+    font-size: 18px;
+    color: #191F28;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+
+#cta_subtitle_highlight {
+    color: #FF6827;
+}
+
+.cta_section {
+    width: 100%;
+}
+
+.cta_wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.cta_title {
+    text-align: center;
+    margin-top: -16px;
+}
+
+.cta_subtitle {
+    text-align: center;
+    margin-top: 48px;
+}
+
+.cta_image {
+    margin-top: 67px;
+    margin-bottom: 40px;
+    width: 250px;
+}
+
+.cta_image>img {
+    width: 100%;
+}
+
+
+#cta_button {
+    background-color: #FF6827;
+    width: 325px;
+    margin: 0 auto;
+    margin-top: 27px;
+    margin-bottom: 75px;
+    border-radius: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#cta_button:hover {
+    cursor: pointer;
+}
+
+#cta_button>p {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+
+
+.diversity_section {
+    width: 100%;
+}
+
+.content_diversity_wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.diversity_text {
+    padding-top: 80px;
+    position: absolute;
+    z-index: 100;
+}
+
+.diversity_title {
+    text-align: center;
+}
+
+.diversity_subtitle {
+    text-align: center;
+    margin-top: 13px;
+}
+
+.diversity_image {
+    width: 375px;
+}
+
+.diversity_image>img {
+    width: 100%;
+    position: relative;
+}
+
+
+.content_wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.shanghai_section {
+    width: 100%;
+}
+
+.shanghai_text {
+    padding-top: 80px;
+    position: absolute;
+    z-index: 100;
+}
+
+.shanghai_title {
+    text-align: center;
+}
+
+.shanghai_subtitle {
+    text-align: center;
+    margin-top: 13px;
+}
+
+.shanghai_image {
+    margin-top: -5px;
+    width: 375px;
+}
+
+.shanghai_image>img {
+    width: 100%;
+    position: relative;
+}
+
+.growth_section {
+    width: 100%;
+}
+
+.growth_text {
+    padding-top: 80px;
+    position: absolute;
+    z-index: 100;
+}
+
+.growth_title {
+    text-align: center;
+}
+
+.growth_subtitle {
+    text-align: center;
+    margin-top: 13px;
+}
+
+.growth_image {
+    margin-top: -5px;
+    width: 375px;
+}
+
+.growth_image>img {
+    width: 100%;
+    position: relative;
+}
+
+.secure_section {
+    width: 100%;
+}
+
+.secure_text {
+    padding-top: 80px;
+    position: absolute;
+    z-index: 100;
+}
+
+.secure_title {
+    text-align: center;
+}
+
+.secure_subtitle {
+    text-align: center;
+    margin-top: 13px;
+}
+
+.secure_image {
+    margin-top: -5px;
+    width: 375px;
+}
+
+.secure_image>img {
+    width: 100%;
+    position: relative;
+}
+
+.custom_image>img {
+    width: 100%;
+}
+
+.custom_section {
+    width: 100%;
+}
+
+/* .custom_title {
+    text-align: center;
+}
+
+.custom_subtitle {
+    text-align: center;
+    margin-top: 13px;
+} */
+
+.custom_image {
+    width: 375px;
+}
+
+.custom_image>img {
+    width: 100%;
+}
+
+#cta_footer_section {
+    width: 100%;
+    margin-top: -5px;
+}
+
+.cta_footer_wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color:#282B33;
+}
+
+.cta_footer_title {
+    text-align: center;
+    margin-top: 36px;
+}
+
+#cta_footer_button {
+    background-color: #FF6827;
+    width: 325px;
+    margin: 0 auto;
+    margin-top: 27px;
+    margin-bottom: 75px;
+    border-radius: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#cta_footer_button:hover {
+    cursor: pointer;
+}
+
+#cta_footer_button>p {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
